@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<title>Ruler/Protractor</title>
+<link rel="apple-touch-icon" sizes="180x180" href="more-icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="more-icons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="more-icons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="more-icons/manifest.json">
+<link rel="mask-icon" href="more-icons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="more-icons/favicon.ico">
+<meta name="msapplication-config" content="more-icons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<script>
+if (navigator.serviceWorker && !(navigator.mozApps && navigator.mozApps.installPackage)) {
+	navigator.serviceWorker.register('sw.js');
+}
+</script>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div id="ruler-marks"></div>
+<div id="ruler-label"></div>
+<div id="protractor-display"></div>
+<div id="protractor-store"></div>
+<div id="protractor-orientation-label"></div>
+<div id="protractor-orientation"></div>
+<div id="protractor-orientation-relative-label"></div>
+<div id="protractor-orientation-relative"></div>
+<script src="js/ruler.js"></script>
+<script src="js/protractor.js"></script>
+</body></html>

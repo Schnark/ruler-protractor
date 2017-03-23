@@ -1,0 +1,54 @@
+/*based on https://github.com/radare/fxos-app-ruler by pancake*/
+html, body {
+	height: 220mozmm;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: linear-gradient(to right,  #fff94c 0%, #ffdb28 15%, #ffc300 28%, #ffdb28 32%, #ffdb28 68%, #ffc300 71%, #ffdb28 86%, #fff94c 100%);
+	padding: 0px;
+	margin: 0px;
+}
+
+#ruler-marks {
+	width: 100%;
+}
+
+#ruler-label,
+#protractor-display,
+#protractor-store,
+#protractor-orientation-label,
+#protractor-orientation,
+#protractor-orientation-relative-label,
+#protractor-orientation-relative {
+	position: fixed;
+	width: 100%;
+	color: #404040;
+	text-align: center;
+}
+
+#ruler-label {
+	top: 32px;
+}
+
+#protractor-display {
+	top: 30%;
+}
+
+#protractor-store {
+	top: 40%;
+}
+
+#protractor-orientation-label {
+	top: 50%;
+}
+
+#protractor-orientation {
+	top: 55%;
+}
+
+#protractor-orientation-relative-label {
+	top: 60%;
+}
+
+#protractor-orientation-relative {
+	top: 65%;
+}
