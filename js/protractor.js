@@ -33,7 +33,7 @@ function calcAngle () {
 
 function getOrientation (data) {
 	return [
-		data.alpha,
+		data.alpha % 360,
 		data.beta,
 		data.gamma
 	];

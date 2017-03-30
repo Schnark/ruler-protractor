@@ -1,8 +1,8 @@
 {
-	"version": "1.0",
+	"version": "1.1",
 	"name": "Ruler, Protractor",
 	"description": "Ruler and protractor app for Firefox OS",
-	"size": 67603,
+	"size": 67601,
 	"package_path": "http://localhost:8080/ruler-protractor.zip",
 	"icons": {
 		"128": "/icons/icon-128.png",
