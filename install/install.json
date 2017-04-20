@@ -1,0 +1,16 @@
+{
+	"@comment": "Note that the code to transform these data into a webpage is in https://github.com/Schnark/schnark.github.io",
+	"title": {
+		"en": "Ruler, Protractor – App for Firefox OS",
+		"de": "Lineal, Winkelmesser – App für Firefox OS"
+	},
+	"serviceworker": true,
+	"icon": "icons/icon-128.png",
+	"screenshots": [
+		"screenshot.png"
+	],
+	"desc": {
+		"en": ["This is a combined ruler and protractor app for Firefox OS.", "The ruler uses both cm and inch, tap the label to switch sides. The protractor meassures the angle of the long edge of your device (at least it's the long edge for a smartphone) against the place where it was when you resetted the protractor.", "Note that the protractor relies on accurate data from the compass, which may not be true on your device. Also sometimes it takes some time to calibrate. For this reason also the raw orientation data is shown. When you turn round once the first angle should increase from 0° to 360°. The two other angles are often much more reliable."],
+		"de": ["Dies ist eine kombinierte Lineal- und Winkelmesser-App für Firefox OS.", "Das Lineal verwendet sowohl cm als auch inch, tippe die Beschriftung an um die Seiten zu vertauschen. Der Winkelmesser misst den Winkel der langen Kante des Geräts (zumindest ist es bei Smartphones die lange Kante) gegenüber der Position, an der sie sich beim Zurücksetzen des Winkelmessers befand.", "Beachte, dass der Winkelmesser auf genaue Daten vom Kompass angewiesen ist, was nicht auf allen Geräten der Fall ist. Auch dauert es manchmal eine gewisse Zeit bis er korrekt kalibriert ist. Daher werden auch die Rohdaten angezeigt. Wenn du dich einmal im Kreis drehst, sollte der erste Winkel von 0° bis 360° anwachsen. Die beiden anderen Winkel sind häufig wesentlich zuverlässiger."]
+	}
+}
