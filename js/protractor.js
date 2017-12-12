@@ -56,11 +56,8 @@ function formatOrientation (orientation) {
 }
 
 function getTranslation (translations) {
-	var lang = navigator.language;
-	if (!translations[lang]) {
-		lang = 'en';
-	}
-	return translations[lang];
+	var lang = navigator.language || 'en';
+	return translations[lang] || translations[lang.replace(/-.*/, '')] || translations.en;
 }
 
 function getStoreLabel () {
@@ -84,6 +81,13 @@ function getRelativeLabel () {
 	});
 }
 
+function getLang () {
+	return getTranslation({
+		en: 'en',
+		de: 'de'
+	});
+}
+
 function init () {
 	var display, store, orientation, orientationRel;
 
@@ -95,6 +99,8 @@ function init () {
 	currentDir = [1, 0, 0];
 	currentOrientation = [0, 0, 0];
 	storeDirOrientation();
+
+	document.documentElement.lang = getLang();
 
 	store.textContent = getStoreLabel();
 	store.addEventListener('click', storeDirOrientation);

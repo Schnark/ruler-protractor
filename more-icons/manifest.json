@@ -15,6 +15,6 @@
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "start_url": "https://schnark.github.io/ruler-protractor/index.html",
-    "display": "standalone",
+    "display": "fullscreen",
     "orientation": "portrait"
 }
